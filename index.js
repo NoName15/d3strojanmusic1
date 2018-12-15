@@ -33,7 +33,7 @@ client.on('ready', () => {
 var x = client.channels.get("462726046442323971");
 if (x) x.join();
 });
-const devs1 = ['452334291888635904','480407581085532180'];
+const devs1 = ['400692843582062604','480407581085532180'];
 
 client.on('message', message => {
     let argresult = message.content.split(` `).slice(1).join(' ');
@@ -421,7 +421,7 @@ client2.on('ready', () => {
 var x = client2.channels.get("507219804369846272");
 if (x) x.join();
 });
-const devs2 = ['452334291888635904','480407581085532180'];
+const devs2 = ['400692843582062604','480407581085532180'];
 
 client2.on('message', message => {
     let argresult = message.content.split(` `).slice(1).join(' ');
