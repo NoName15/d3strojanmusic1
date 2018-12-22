@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "1";
+const prefix = "r";
 /////////////////////////
 ////////////////////////
 
@@ -29,11 +29,8 @@ client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag} !`);
     client.user.setGame(`1help `, `www.twitch.tv/v5bz`);
   });
-client.on('ready', () => {
-var x = client.channels.get("462726046442323971");
-if (x) x.join();
-});
-const devs1 = ['400692843582062604','480407581085532180'];
+
+const devs1 = ['510831122238668833','480407581085532180'];
 
 client.on('message', message => {
     let argresult = message.content.split(` `).slice(1).join(' ');
@@ -365,28 +362,27 @@ client.on('message', message => {
  message.author.sendMessage(`
  **
 
-By: RO7#9078
+By: JakeY#2019
 ╔[❖════════════❖]╗
-             Prefix = ' 1 '
+             Prefix = ' r '
 ╚[❖════════════❖]╝
 ╔[❖════════════❖]╗
              Music Commands كومندات الميوزك
 ╚[❖════════════❖]╝
- ❖ 1play ➾ play a song  تشغل اغنية برابط او اسم
- ❖ 1stop ➾ stop the song  توقف البوت نهائيا
+ ❖ rplay ➾ play a song  تشغل اغنية برابط او اسم
+ ❖ rstop ➾ stop the song  توقف البوت نهائيا
  
- ❖ 1np ➾ view the current song  تشوف الاغنية اللي مشغلة حاليا
- ❖ 1queue ➾ the current playlist  تشوف قائمة التشغيل الحالية
- ❖ 1skip ➾ skips a song تتجاوز اغنية
+ ❖ rnp ➾ view the current song  تشوف الاغنية اللي مشغلة حاليا
+ ❖ rqueue ➾ the current playlist  تشوف قائمة التشغيل الحالية
+ ❖ rskip ➾ skips a song تتجاوز اغنية
  
- ❖ 1resume ➾ resums a song  تشغل الاغنية بعد التوقيف المؤقت
- ❖ 1pause ➾ pauses a song  تووقف اغنية مؤقتا
- ❖ 1join ➾ joins your voice channel  تخلي البوت يدخل رومك الصوتي
- ❖ 1disconnect ➾ disconnects from your voice channel  تخلي البوت يخرج من رومك الصوتي
+ ❖ rresume ➾ resums a song  تشغل الاغنية بعد التوقيف المؤقت
+ ❖ rpause ➾ pauses a song  تووقف اغنية مؤقتا
+تخلي البوت يخرج من رومك الصوتي
 ╔[❖════════════❖]╗
              General Commands كومندات عامة
 ╚[❖════════════❖]╝
- ❖ 1ping ➾ view my ping !  تشوف سرعة اتصال البوت
+ ❖ rping ➾ view my ping !  تشوف سرعة اتصال البوت
 ==================================================================
 
 ==================================================================
@@ -412,16 +408,13 @@ client.login(process.env.BOT_TOKEN);
 
 const client2 = new Discord.Client({disableEveryone: true});
 
-const prefix2 = "2";
+const prefix2 = "a";
 client2.on('ready', () => {
     console.log(`Logged in as ${client2.user.tag} !`);
-    client2.user.setGame(`2help | RO7]`,`www.twitch.tv/v5bz`);
+    client2.user.setGame(`ahelp ]`,`www.twitch.tv/v5bz`);
   });
-client2.on('ready', () => {
-var x = client2.channels.get("507219804369846272");
-if (x) x.join();
-});
-const devs2 = ['400692843582062604','480407581085532180'];
+
+const devs2 = ['510831122238668833','480407581085532180'];
 
 client2.on('message', message => {
     let argresult = message.content.split(` `).slice(1).join(' ');
@@ -753,30 +746,28 @@ client2.on('message', message => {
  message.author.sendMessage(`
  **
 
-By: RO7#9078
+By: JakeY#2019
 ╔[❖════════════❖]╗
-             Prefix = ' ! '
+             Prefix = ' a '
 ╚[❖════════════❖]╝
 ╔[❖════════════❖]╗
              Music Commands كومندات الميوزك
 ╚[❖════════════❖]╝
- ❖ 2play ➾ play a song  تشغل اغنية برابط او اسم
- ❖ 2stop ➾ stop the song  توقف البوت نهائيا
+ ❖ aplay ➾ play a song  تشغل اغنية برابط او اسم
+ ❖ astop ➾ stop the song  توقف البوت نهائيا
  
- ❖ 2np ➾ view the current song  تشوف الاغنية اللي مشغلة حاليا
- ❖ 2queue ➾ the current playlist  تشوف قائمة التشغيل الحالية
- ❖ 2skip ➾ skips a song تتجاوز اغنية
+ ❖ anp ➾ view the current song  تشوف الاغنية اللي مشغلة حاليا
+ ❖ aqueue ➾ the current playlist  تشوف قائمة التشغيل الحالية
+ ❖ askip ➾ skips a song تتجاوز اغنية
  
- ❖ 2resume ➾ resums a song  تشغل الاغنية بعد التوقيف المؤقت
- ❖ 2pause ➾ pauses a song  تووقف اغنية مؤقتا
- ❖ 2join ➾ joins your voice channel  تخلي البوت يدخل رومك الصوتي
- ❖ 2disconnect ➾ disconnects from your voice channel  تخلي البوت يخرج من رومك الصوتي
+ ❖ aresume ➾ resums a song  تشغل الاغنية بعد التوقيف المؤقت
+ ❖ apause ➾ pauses a song  تووقف اغنية مؤقتا
+
 ╔[❖════════════❖]╗
              General Commands كومندات عامة
 ╚[❖════════════❖]╝
- ❖ 2ping ➾ view my ping !  تشوف سرعة اتصال البوت
-==================================================================
-Server support: https://discord.gg/cUgYbEr   سيرفر السيبورت
+ ❖ aping ➾ view my ping !  تشوف سرعة اتصال البوت
+=================================================================
 ==================================================================
 `);
 
