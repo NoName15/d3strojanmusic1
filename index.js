@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "r";
+const prefix = "1";
 /////////////////////////
 ////////////////////////
 
@@ -364,25 +364,25 @@ client.on('message', message => {
 
 By: JakeY#2019
 ╔[❖════════════❖]╗
-             Prefix = ' r '
+             Prefix = ' 1 '
 ╚[❖════════════❖]╝
 ╔[❖════════════❖]╗
              Music Commands كومندات الميوزك
 ╚[❖════════════❖]╝
- ❖ rplay ➾ play a song  تشغل اغنية برابط او اسم
- ❖ rstop ➾ stop the song  توقف البوت نهائيا
+ ❖ 1play ➾ play a song  تشغل اغنية برابط او اسم
+ ❖ 1stop ➾ stop the song  توقف البوت نهائيا
  
- ❖ rnp ➾ view the current song  تشوف الاغنية اللي مشغلة حاليا
- ❖ rqueue ➾ the current playlist  تشوف قائمة التشغيل الحالية
- ❖ rskip ➾ skips a song تتجاوز اغنية
+ ❖ 1np ➾ view the current song  تشوف الاغنية اللي مشغلة حاليا
+ ❖ 1queue ➾ the current playlist  تشوف قائمة التشغيل الحالية
+ ❖ 1skip ➾ skips a song تتجاوز اغنية
  
- ❖ rresume ➾ resums a song  تشغل الاغنية بعد التوقيف المؤقت
- ❖ rpause ➾ pauses a song  تووقف اغنية مؤقتا
+ ❖ 1resume ➾ resums a song  تشغل الاغنية بعد التوقيف المؤقت
+ ❖ 1pause ➾ pauses a song  تووقف اغنية مؤقتا
 تخلي البوت يخرج من رومك الصوتي
 ╔[❖════════════❖]╗
              General Commands كومندات عامة
 ╚[❖════════════❖]╝
- ❖ rping ➾ view my ping !  تشوف سرعة اتصال البوت
+ ❖ 1ping ➾ view my ping !  تشوف سرعة اتصال البوت
 ==================================================================
 
 ==================================================================
@@ -408,7 +408,7 @@ client.login(process.env.BOT_TOKEN);
 
 const client2 = new Discord.Client({disableEveryone: true});
 
-const prefix2 = "a";
+const prefix2 = "2";
 client2.on('ready', () => {
     console.log(`Logged in as ${client2.user.tag} !`);
     client2.user.setGame(`ahelp ]`,`www.twitch.tv/v5bz`);
@@ -748,25 +748,25 @@ client2.on('message', message => {
 
 By: JakeY#2019
 ╔[❖════════════❖]╗
-             Prefix = ' a '
+             Prefix = ' 2 '
 ╚[❖════════════❖]╝
 ╔[❖════════════❖]╗
              Music Commands كومندات الميوزك
 ╚[❖════════════❖]╝
- ❖ aplay ➾ play a song  تشغل اغنية برابط او اسم
- ❖ astop ➾ stop the song  توقف البوت نهائيا
+ ❖ 2play ➾ play a song  تشغل اغنية برابط او اسم
+ ❖ 2stop ➾ stop the song  توقف البوت نهائيا
  
- ❖ anp ➾ view the current song  تشوف الاغنية اللي مشغلة حاليا
- ❖ aqueue ➾ the current playlist  تشوف قائمة التشغيل الحالية
- ❖ askip ➾ skips a song تتجاوز اغنية
+ ❖ 2np ➾ view the current song  تشوف الاغنية اللي مشغلة حاليا
+ ❖ 2queue ➾ the current playlist  تشوف قائمة التشغيل الحالية
+ ❖ 2skip ➾ skips a song تتجاوز اغنية
  
- ❖ aresume ➾ resums a song  تشغل الاغنية بعد التوقيف المؤقت
- ❖ apause ➾ pauses a song  تووقف اغنية مؤقتا
+ ❖ 2resume ➾ resums a song  تشغل الاغنية بعد التوقيف المؤقت
+ ❖ 2pause ➾ pauses a song  تووقف اغنية مؤقتا
 
 ╔[❖════════════❖]╗
              General Commands كومندات عامة
 ╚[❖════════════❖]╝
- ❖ aping ➾ view my ping !  تشوف سرعة اتصال البوت
+ ❖ 2ping ➾ view my ping !  تشوف سرعة اتصال البوت
 =================================================================
 ==================================================================
 `);
